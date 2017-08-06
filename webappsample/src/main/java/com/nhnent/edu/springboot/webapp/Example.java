@@ -1,8 +1,10 @@
 package com.nhnent.edu.springboot.webapp;
 
+import com.nhnent.edu.springboot.children.FirstChildConfig;
 import org.springframework.boot.Banner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.core.env.Environment;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -12,11 +14,12 @@ import java.io.PrintStream;
 
 @RestController
 @EnableAutoConfiguration
+//@SpringBootApplication
 public class Example {
 
     public static void main(String[] args) throws Exception {
         //Example 1
-//        SpringApplication.run(Example.class, args);
+        SpringApplication.run(Example.class, args);
 
         //Example 2
 //        SpringApplication springApplication = new SpringApplication(Example.class);
@@ -41,6 +44,18 @@ public class Example {
 //                    }
 //                })
 //                .sources(Example.class)
+//                .run(args);
+
+        //Example 5 - 계층 구조 (child context)
+//        new SpringApplicationBuilder()
+//                .banner(new Banner() {
+//                    @Override
+//                    public void printBanner(Environment environment, Class<?> sourceClass, PrintStream out) {
+//                        out.print("Spring Boot!");
+//                    }
+//                })
+//                .sources(Example.class)
+//                .child(FirstChildConfig.class)
 //                .run(args);
 
     }
