@@ -6,7 +6,12 @@
 
     <groupId>com.nhnent.edu.springboot</groupId>
     <artifactId>webapp-sample</artifactId>
+    <packaging>jar</packaging>
     <version>1.0-SNAPSHOT</version>
+
+    <properties>
+        <java.version>1.8</java.version>
+    </properties>
 
     <!-- 스프링부트 최상위 dependency -->
     <parent>
