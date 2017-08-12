@@ -1,0 +1,3 @@
+META-INF/spring-configuration-metadata.json
+com/nhnent/springboot/dooray/configure/DoorayProperties.class
+com/nhnent/springboot/dooray/configure/DoorayAutoConfiguration.class

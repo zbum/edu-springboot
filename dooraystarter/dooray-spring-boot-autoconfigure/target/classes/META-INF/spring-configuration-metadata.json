@@ -1,0 +1,17 @@
+{
+  "hints": [],
+  "groups": [
+    {
+      "sourceType": "com.nhnent.springboot.dooray.configure.DoorayProperties",
+      "name": "dooray",
+      "type": "com.nhnent.springboot.dooray.configure.DoorayProperties"
+    }
+  ],
+  "properties": [
+    {
+      "sourceType": "com.nhnent.springboot.dooray.configure.DoorayProperties",
+      "name": "dooray.hook-url",
+      "type": "java.lang.String"
+    }
+  ]
+}

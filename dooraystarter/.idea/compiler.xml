@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="dooray-application" />
+        <module name="dooray-spring-boot" />
+        <module name="dooray-spring-boot-autoconfigure" />
+        <module name="dooray-spring-boot-starter" />
+        <module name="spring-boot-dooray" />
+        <module name="spring-boot-dooray-autoconfigure" />
+        <module name="spring-boot-dooray-starter" />
+      </profile>
+      <profile name="Annotation profile for dooray-application" enabled="true">
+        <sourceOutputDir name="../../../../../target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../../../../../target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="springbootstarter" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="dooray-application" target="1.6" />
+      <module name="dooray-spring-boot" target="1.5" />
+      <module name="dooray-spring-boot-autoconfigure" target="1.8" />
+      <module name="dooray-spring-boot-starter" target="1.8" />
+      <module name="doorayapplication" target="1.5" />
+      <module name="dooraystarter" target="1.5" />
+      <module name="spring-boot-dooray" target="1.5" />
+      <module name="spring-boot-dooray-autoconfigure" target="1.8" />
+      <module name="spring-boot-dooray-starter" target="1.5" />
+      <module name="springbootstarter" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
