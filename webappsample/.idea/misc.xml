@@ -45,6 +45,7 @@
         <option value="$PROJECT_DIR$/../argument/pom.xml" />
         <option value="$PROJECT_DIR$/../actuatorsample/pom.xml" />
         <option value="$PROJECT_DIR$/../webapp-sample/pom.xml" />
+        <option value="$PROJECT_DIR$/../app-actuator-sample/pom.xml" />
       </list>
     </option>
   </component>
