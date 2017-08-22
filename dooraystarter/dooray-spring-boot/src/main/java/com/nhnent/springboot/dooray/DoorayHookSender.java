@@ -1,6 +1,5 @@
 package com.nhnent.springboot.dooray;
 
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpEntity;
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.HttpMethod;
@@ -18,7 +17,7 @@ public class DoorayHookSender {
         this.url = url;
     }
 
-    public void send(DoorayHook doorayHook){
+    public void send(DoorayHook doorayHook) {
         HttpHeaders headers = new HttpHeaders();
 
         HttpEntity<DoorayHook> entity = new HttpEntity<DoorayHook>(doorayHook, headers);

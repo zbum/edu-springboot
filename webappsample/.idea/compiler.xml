@@ -7,12 +7,21 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="argument" />
+        <module name="webapp-actuator-sample" />
         <module name="webappsample" />
+      </profile>
+      <profile name="Annotation profile for webapp-sample" enabled="true">
+        <sourceOutputDir name="../../../../target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../../../../target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="webapp-sample" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="argument" target="1.6" />
-      <module name="webappsample" target="1.6" />
+      <module name="argument" target="1.8" />
+      <module name="webapp-actuator-sample" target="1.8" />
+      <module name="webapp-sample" target="1.8" />
+      <module name="webappsample" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

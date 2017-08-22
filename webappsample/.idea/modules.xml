@@ -3,7 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/../argument/argument.iml" filepath="$PROJECT_DIR$/../argument/argument.iml" />
-      <module fileurl="file://$PROJECT_DIR$/webappsample.iml" filepath="$PROJECT_DIR$/webappsample.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../webapp-actuator-sample/webapp-actuator-sample.iml" filepath="$PROJECT_DIR$/../webapp-actuator-sample/webapp-actuator-sample.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../webapp-sample/webapp-sample.iml" filepath="$PROJECT_DIR$/../webapp-sample/webapp-sample.iml" />
     </modules>
   </component>
 </project>
