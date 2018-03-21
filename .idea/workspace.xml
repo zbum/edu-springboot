@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3f595721-e687-42c2-a7d7-4f01e33e930f" name="Default" comment="" />
+    <list default="true" id="3f595721-e687-42c2-a7d7-4f01e33e930f" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="$PROJECT_DIR$/webapp-demo-jsp/target/" />
     <ignored path="$PROJECT_DIR$/webapp-demo-filter/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -13,48 +15,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/webapp-demo-jsp/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="30" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DemoJspApplication.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/webapp-demo-jsp/src/main/java/com/nhnent/edu/springboot/jsp/demojsp/DemoJspApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="WelcomeController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/webapp-demo-jsp/src/main/java/com/nhnent/edu/springboot/jsp/demojsp/WelcomeController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="application.properties" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/webapp-demo-jsp/src/main/resources/application.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="27" lean-forward="false" selection-start-line="1" selection-start-column="27" selection-end-line="1" selection-end-column="27" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="WebappDemoFilterApplication.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/webapp-demo-filter/src/main/java/com/nhnent/edu/springboot/web/filter/webappdemofilter/WebappDemoFilterApplication.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -65,11 +25,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FilterConfig.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="FilterConfig.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/webapp-demo-filter/src/main/java/com/nhnent/edu/springboot/web/filter/webappdemofilter/FilterConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="25" column="41" lean-forward="false" selection-start-line="25" selection-start-column="41" selection-end-line="25" selection-end-column="41" />
+            <state relative-caret-position="315">
+              <caret line="21" column="44" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="29" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -81,7 +41,7 @@
         <entry file="file://$PROJECT_DIR$/webapp-demo-filter/src/main/java/com/nhnent/edu/springboot/web/filter/webappdemofilter/Log1Filter.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="315">
-              <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+              <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -99,21 +59,79 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GenericFilterBean.java" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.0.4.RELEASE/spring-web-5.0.4.RELEASE-sources.jar!/org/springframework/web/filter/GenericFilterBean.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-3132">
-              <caret line="78" column="17" lean-forward="false" selection-start-line="78" selection-start-column="9" selection-end-line="78" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="WelcomeController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/webapp-demo-filter/src/main/java/com/nhnent/edu/springboot/web/filter/webappdemofilter/WelcomeController.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="60">
               <caret line="6" column="5" lean-forward="false" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Log1Servlet.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/webapp-demo-filter/src/main/java/com/nhnent/edu/springboot/web/filter/webappdemofilter/Log1Servlet.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HttpServletBean.java" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.0.4.RELEASE/spring-webmvc-5.0.4.RELEASE-sources.jar!/org/springframework/web/servlet/HttpServletBean.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HttpServletBean.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.0.4.RELEASE/spring-webmvc-5.0.4.RELEASE.jar!/org/springframework/web/servlet/HttpServletBean.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="35" column="22" lean-forward="false" selection-start-line="35" selection-start-column="22" selection-end-line="35" selection-end-column="22" />
+              <folding>
+                <marker date="1520660424782" expanded="false" signature="0:104" ph="/.../" />
+                <marker date="1520660424782" expanded="false" signature="155:1424" ph="..." />
+                <marker date="1520660424782" expanded="true" signature="1763:1770" ph="{}" />
+                <marker date="1520660424782" expanded="false" signature="1833:1844" ph=" { " />
+                <marker date="1520660424782" expanded="false" signature="1882:1888" ph=" }" />
+                <marker date="1520660424782" expanded="true" signature="1946:2127" ph="{...}" />
+                <marker date="1520660424782" expanded="true" signature="2181:2329" ph="{...}" />
+                <marker date="1520660424782" expanded="false" signature="2388:2399" ph=" { " />
+                <marker date="1520660424782" expanded="false" signature="2439:2445" ph=" }" />
+                <marker date="1520660424782" expanded="true" signature="2500:3700" ph="{...}" />
+                <marker date="1520660424782" expanded="true" signature="3775:3782" ph="{}" />
+                <marker date="1520660424782" expanded="true" signature="3845:3852" ph="{}" />
+                <marker date="1520660424782" expanded="true" signature="3903:4008" ph="{...}" />
+                <marker date="1520660424782" expanded="true" signature="4093:5134" ph="{...}" />
+                <marker date="1520660424782" expanded="true" signature="4216:5128" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ServletConfig.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/webapp-demo-filter/src/main/java/com/nhnent/edu/springboot/web/filter/webappdemofilter/ServletConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="25" selection-end-column="1" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Log2Servlet.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/webapp-demo-filter/src/main/java/com/nhnent/edu/springboot/web/filter/webappdemofilter/Log2Servlet.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="12" column="36" lean-forward="false" selection-start-line="12" selection-start-column="36" selection-end-line="12" selection-end-column="36" />
               <folding />
             </state>
           </provider>
@@ -161,6 +179,10 @@
         <option value="$PROJECT_DIR$/webapp-demo-filter/src/main/java/com/nhnent/edu/springboot/web/filter/webappdemofilter/WelcomeController.java" />
         <option value="$PROJECT_DIR$/webapp-demo-filter/src/main/java/com/nhnent/edu/springboot/web/filter/webappdemofilter/Log1Filter.java" />
         <option value="$PROJECT_DIR$/webapp-demo-filter/src/main/java/com/nhnent/edu/springboot/web/filter/webappdemofilter/FilterConfig.java" />
+        <option value="$PROJECT_DIR$/webapp-demo-filter/.gitignore" />
+        <option value="$PROJECT_DIR$/webapp-demo-filter/src/main/java/com/nhnent/edu/springboot/web/filter/webappdemofilter/Log1Servlet.java" />
+        <option value="$PROJECT_DIR$/webapp-demo-filter/src/main/java/com/nhnent/edu/springboot/web/filter/webappdemofilter/Log2Servlet.java" />
+        <option value="$PROJECT_DIR$/webapp-demo-filter/src/main/java/com/nhnent/edu/springboot/web/filter/webappdemofilter/ServletConfig.java" />
       </list>
     </option>
   </component>
@@ -476,15 +498,16 @@
       <workItem from="1503475531285" duration="20000" />
       <workItem from="1508045607695" duration="662000" />
       <workItem from="1508661338730" duration="12000" />
-      <workItem from="1521602682837" duration="6966000" />
+      <workItem from="1521602682837" duration="8628000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7660000" />
+    <option name="totallyTimeSpent" value="9322000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1713" y="151" width="1440" height="931" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Tool Output" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -508,7 +531,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6782297" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3277512" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3277512" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.36909872" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
@@ -598,7 +621,7 @@
         <state relative-caret-position="180">
           <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -615,14 +638,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
           <caret line="1" column="27" lean-forward="false" selection-start-line="1" selection-start-column="27" selection-end-line="1" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webapp-demo-filter/src/main/java/com/nhnent/edu/springboot/web/filter/webappdemofilter/WebappDemoFilterApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
           <folding />
         </state>
       </provider>
@@ -672,18 +687,10 @@
     <entry file="file://$PROJECT_DIR$/webapp-demo-filter/src/main/java/com/nhnent/edu/springboot/web/filter/webappdemofilter/Log1Filter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
-          <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webapp-demo-filter/src/main/java/com/nhnent/edu/springboot/web/filter/webappdemofilter/WelcomeController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="6" column="5" lean-forward="false" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -695,10 +702,100 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/webapp-demo-filter/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="12" lean-forward="true" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webapp-demo-filter/mvnw">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webapp-demo-filter/src/main/java/com/nhnent/edu/springboot/web/filter/webappdemofilter/WelcomeController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="6" column="5" lean-forward="false" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webapp-demo-filter/src/main/java/com/nhnent/edu/springboot/web/filter/webappdemofilter/WebappDemoFilterApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.0.4.RELEASE/spring-webmvc-5.0.4.RELEASE-sources.jar!/org/springframework/web/servlet/HttpServletBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.0.4.RELEASE/spring-webmvc-5.0.4.RELEASE.jar!/org/springframework/web/servlet/HttpServletBean.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="35" column="22" lean-forward="false" selection-start-line="35" selection-start-column="22" selection-end-line="35" selection-end-column="22" />
+          <folding>
+            <marker date="1520660424782" expanded="false" signature="0:104" ph="/.../" />
+            <marker date="1520660424782" expanded="false" signature="155:1424" ph="..." />
+            <marker date="1520660424782" expanded="true" signature="1763:1770" ph="{}" />
+            <marker date="1520660424782" expanded="false" signature="1833:1844" ph=" { " />
+            <marker date="1520660424782" expanded="false" signature="1882:1888" ph=" }" />
+            <marker date="1520660424782" expanded="true" signature="1946:2127" ph="{...}" />
+            <marker date="1520660424782" expanded="true" signature="2181:2329" ph="{...}" />
+            <marker date="1520660424782" expanded="false" signature="2388:2399" ph=" { " />
+            <marker date="1520660424782" expanded="false" signature="2439:2445" ph=" }" />
+            <marker date="1520660424782" expanded="true" signature="2500:3700" ph="{...}" />
+            <marker date="1520660424782" expanded="true" signature="3775:3782" ph="{}" />
+            <marker date="1520660424782" expanded="true" signature="3845:3852" ph="{}" />
+            <marker date="1520660424782" expanded="true" signature="3903:4008" ph="{...}" />
+            <marker date="1520660424782" expanded="true" signature="4093:5134" ph="{...}" />
+            <marker date="1520660424782" expanded="true" signature="4216:5128" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webapp-demo-filter/src/main/java/com/nhnent/edu/springboot/web/filter/webappdemofilter/Log1Servlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/webapp-demo-filter/src/main/java/com/nhnent/edu/springboot/web/filter/webappdemofilter/FilterConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="41" lean-forward="false" selection-start-line="25" selection-start-column="41" selection-end-line="25" selection-end-column="41" />
+        <state relative-caret-position="315">
+          <caret line="21" column="44" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="29" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webapp-demo-filter/src/main/java/com/nhnent/edu/springboot/web/filter/webappdemofilter/Log2Servlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="12" column="36" lean-forward="false" selection-start-line="12" selection-start-column="36" selection-end-line="12" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webapp-demo-filter/src/main/java/com/nhnent/edu/springboot/web/filter/webappdemofilter/ServletConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="25" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
