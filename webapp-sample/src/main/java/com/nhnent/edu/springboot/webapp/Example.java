@@ -14,7 +14,7 @@ import java.io.PrintStream;
 
 @RestController
 @EnableAutoConfiguration
-//@SpringBootApplication
+@SpringBootApplication
 public class Example {
 
     public static void main(String[] args) throws Exception {

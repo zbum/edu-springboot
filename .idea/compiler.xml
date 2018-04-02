@@ -6,12 +6,18 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="conditional-demo" />
+        <module name="web-app-demo-filter2" />
         <module name="webapp-demo-filter" />
+        <module name="webapp-sample" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="conditional-demo" target="1.8" />
+      <module name="web-app-demo-filter2" target="1.8" />
       <module name="webapp-demo-filter" target="1.8" />
       <module name="webapp-demo-jsp" target="1.8" />
+      <module name="webapp-sample" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
