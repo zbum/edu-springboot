@@ -2,31 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3f595721-e687-42c2-a7d7-4f01e33e930f" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_3.xml" afterPath="" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_3.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_9_0.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_9_4.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_9_4.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_9_4.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_9_4.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_9_4.xml" afterPath="" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_4_0.xml" afterPath="" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_annotation_javax_annotation_api_1_3_2.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_validation_validation_api_2_0_1_Final.xml" afterPath="" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_7_10.xml" afterPath="" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_7_10.xml" afterPath="" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_accessors_smart_1_2.xml" afterPath="" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_json_smart_2_3.xml" afterPath="" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_10_0.xml" afterPath="" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_10_0.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_8_5_28.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_8_5_28.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_8_5_28.xml" afterPath="" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_assertj_assertj_core_3_9_1.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_validator_hibernate_validator_6_0_7_Final.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_3_2_Final.xml" afterPath="" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_core_2_15_0.xml" afterPath="" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_objenesis_objenesis_2_6.xml" afterPath="" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_5_0_4.xml" afterPath="" />
@@ -34,11 +20,8 @@
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_0_0_RELEASE.xml" afterPath="" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_0_0_RELEASE.xml" afterPath="" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_0_0_RELEASE.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_0_0_RELEASE.xml" afterPath="" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_0_0_RELEASE.xml" afterPath="" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_0_0_RELEASE.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_0_0_RELEASE.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_0_0_RELEASE.xml" afterPath="" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_0_0_RELEASE.xml" afterPath="" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_0_0_RELEASE.xml" afterPath="" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_0_4_RELEASE.xml" afterPath="" />
@@ -48,16 +31,12 @@
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_0_4_RELEASE.xml" afterPath="" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_0_4_RELEASE.xml" afterPath="" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_5_0_4_RELEASE.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_5_0_4_RELEASE.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_5_0_4_RELEASE.xml" afterPath="" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_xmlunit_xmlunit_core_2_5_1.xml" afterPath="" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_19.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/springboot.iml" afterPath="$PROJECT_DIR$/.idea/springboot.iml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/webapp-demo-filter/pom.xml" afterPath="$PROJECT_DIR$/webapp-demo-filter/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/webapp-sample/src/main/java/com/nhnent/edu/springboot/webapp/Example.java" afterPath="$PROJECT_DIR$/webapp-sample/src/main/java/com/nhnent/edu/springboot/webapp/Example.java" />
+      <change beforePath="$PROJECT_DIR$/conditional-demo/pom.xml" afterPath="$PROJECT_DIR$/conditional-demo/pom.xml" />
+      <change beforePath="$PROJECT_DIR$/conditional-demo/src/main/java/com/nhnent/edu/springboot/autoconfig/conditional/conditionaldemo/ConditionalDemoApplication.java" afterPath="$PROJECT_DIR$/conditional-demo/src/main/java/com/nhnent/edu/springboot/autoconfig/conditional/conditionaldemo/ConditionalDemoApplication.java" />
+      <change beforePath="$PROJECT_DIR$/conditional-demo/src/main/java/com/nhnent/edu/springboot/autoconfig/conditional/conditionaldemo/ConditionalDemoConfig.java" afterPath="$PROJECT_DIR$/conditional-demo/src/main/java/com/nhnent/edu/springboot/autoconfig/conditional/conditionaldemo/ConditionalDemoConfig.java" />
     </list>
     <ignored path="$PROJECT_DIR$/webapp-demo-jsp/target/" />
     <ignored path="$PROJECT_DIR$/webapp-demo-filter/target/" />
@@ -73,59 +52,43 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="FilterConfig.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/webapp-demo-filter/src/main/java/com/nhnent/edu/springboot/web/filter/webappdemofilter/FilterConfig.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="8" lean-forward="false" selection-start-line="0" selection-start-column="8" selection-end-line="0" selection-end-column="8" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ConditionalDemoApplication.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ConditionalDemoApplication.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/conditional-demo/src/main/java/com/nhnent/edu/springboot/autoconfig/conditional/conditionaldemo/ConditionalDemoApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="22" column="30" lean-forward="false" selection-start-line="22" selection-start-column="30" selection-end-line="22" selection-end-column="30" />
+            <state relative-caret-position="432">
+              <caret line="29" column="56" lean-forward="false" selection-start-line="29" selection-start-column="31" selection-end-line="29" selection-end-column="56" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ConditionalDemoConfig.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="ConditionalDemoConfig.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/conditional-demo/src/main/java/com/nhnent/edu/springboot/autoconfig/conditional/conditionaldemo/ConditionalDemoConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="504">
-              <caret line="31" column="54" lean-forward="false" selection-start-line="31" selection-start-column="54" selection-end-line="31" selection-end-column="54" />
+            <state relative-caret-position="532">
+              <caret line="58" column="0" lean-forward="false" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#578#579#0" expanded="true" />
-                <element signature="e#635#636#0" expanded="true" />
-                <element signature="e#735#736#0" expanded="true" />
-                <element signature="e#811#812#0" expanded="true" />
-                <element signature="e#928#929#0" expanded="true" />
-                <element signature="e#991#992#0" expanded="true" />
-                <element signature="e#1138#1139#0" expanded="true" />
-                <element signature="e#1202#1203#0" expanded="true" />
-                <element signature="e#1307#1308#0" expanded="true" />
-                <element signature="e#1347#1348#0" expanded="true" />
-                <element signature="e#1379#1380#0" expanded="true" />
-                <element signature="e#1444#1445#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Conditional.class" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.0.4.RELEASE/spring-context-5.0.4.RELEASE.jar!/org/springframework/context/annotation/Conditional.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="16" column="18" lean-forward="false" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
-              <folding>
-                <marker date="1520660425322" expanded="false" signature="0:104" ph="/.../" />
-                <marker date="1520660425322" expanded="false" signature="162:355" ph="..." />
-                <marker date="1520660425322" expanded="true" signature="357:452" ph="@{...}" />
+                <element signature="e#398#399#0" expanded="true" />
+                <element signature="e#455#456#0" expanded="true" />
+                <element signature="e#549#550#0" expanded="true" />
+                <element signature="e#622#623#0" expanded="true" />
+                <element signature="e#722#723#0" expanded="true" />
+                <element signature="e#798#799#0" expanded="true" />
+                <element signature="e#916#917#0" expanded="true" />
+                <element signature="e#979#980#0" expanded="true" />
+                <element signature="e#1110#1111#0" expanded="true" />
+                <element signature="e#1180#1181#0" expanded="true" />
+                <element signature="e#1328#1329#0" expanded="true" />
+                <element signature="e#1392#1393#0" expanded="true" />
+                <element signature="e#1523#1524#0" expanded="true" />
+                <element signature="e#1594#1595#0" expanded="true" />
+                <element signature="e#1703#1704#0" expanded="true" />
+                <element signature="e#1770#1771#0" expanded="true" />
+                <element signature="e#1874#1875#0" expanded="true" />
+                <element signature="e#1914#1915#0" expanded="true" />
+                <element signature="e#1946#1947#0" expanded="true" />
+                <element signature="e#2011#2012#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -154,41 +117,64 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PropertyResolver.class" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/5.0.4.RELEASE/spring-core-5.0.4.RELEASE.jar!/org/springframework/core/env/PropertyResolver.class">
+      <file leaf-file-name="ConditionalOnMissingClass.java" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.0.0.RELEASE/spring-boot-autoconfigure-2.0.0.RELEASE-sources.jar!/org/springframework/boot/autoconfigure/condition/ConditionalOnMissingClass.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="270">
-              <caret line="18" column="10" lean-forward="false" selection-start-line="18" selection-start-column="10" selection-end-line="18" selection-end-column="10" />
+              <caret line="35" column="21" lean-forward="false" selection-start-line="35" selection-start-column="21" selection-end-line="35" selection-end-column="21" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="application.properties" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/conditional-demo/src/main/resources/application.properties">
+      <file leaf-file-name="OnClassCondition.java" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.0.0.RELEASE/spring-boot-autoconfigure-2.0.0.RELEASE-sources.jar!/org/springframework/boot/autoconfigure/condition/OnClassCondition.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="10" lean-forward="false" selection-start-line="0" selection-start-column="10" selection-end-line="0" selection-end-column="10" />
+            <state relative-caret-position="-1579">
+              <caret line="51" column="6" lean-forward="false" selection-start-line="51" selection-start-column="6" selection-end-line="51" selection-end-column="6" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ConditionalOnNotWebApplication.class" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.0.0.RELEASE/spring-boot-autoconfigure-2.0.0.RELEASE.jar!/org/springframework/boot/autoconfigure/condition/ConditionalOnNotWebApplication.class">
+      <file leaf-file-name="BeanFactory.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.0.4.RELEASE/spring-beans-5.0.4.RELEASE.jar!/org/springframework/beans/factory/BeanFactory.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="17" column="29" lean-forward="false" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
+            <state relative-caret-position="198">
+              <caret line="16" column="10" lean-forward="false" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
+              <folding>
+                <marker date="1520660431811" expanded="false" signature="0:104" ph="/.../" />
+                <marker date="1520660431811" expanded="false" signature="157:288" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ConditionalOnMissingBean.java" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.0.0.RELEASE/spring-boot-autoconfigure-2.0.0.RELEASE-sources.jar!/org/springframework/boot/autoconfigure/condition/ConditionalOnMissingBean.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-285">
+              <caret line="63" column="25" lean-forward="false" selection-start-line="63" selection-start-column="25" selection-end-line="63" selection-end-column="25" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="OnWebApplicationCondition.class" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.0.0.RELEASE/spring-boot-autoconfigure-2.0.0.RELEASE.jar!/org/springframework/boot/autoconfigure/condition/OnWebApplicationCondition.class">
+      <file leaf-file-name="MongoDataAutoConfiguration.java" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/1.5.6.RELEASE/spring-boot-autoconfigure-1.5.6.RELEASE-sources.jar!/org/springframework/boot/autoconfigure/data/mongo/MongoDataAutoConfiguration.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="21" column="6" lean-forward="false" selection-start-line="21" selection-start-column="6" selection-end-line="21" selection-end-column="6" />
+            <state relative-caret-position="720">
+              <caret line="90" column="5" lean-forward="false" selection-start-line="90" selection-start-column="5" selection-end-line="90" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/conditional-demo/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="288">
+              <caret line="16" column="30" lean-forward="false" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
               <folding />
             </state>
           </provider>
@@ -248,8 +234,9 @@
         <option value="$PROJECT_DIR$/webapp-sample/src/main/java/com/nhnent/edu/springboot/webapp/Example.java" />
         <option value="$PROJECT_DIR$/conditional-demo/src/main/java/com/nhnent/edu/springboot/autoconfig/conditional/conditionaldemo/ContionalDemoConfig.java" />
         <option value="$PROJECT_DIR$/conditional-demo/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/conditional-demo/src/main/java/com/nhnent/edu/springboot/autoconfig/conditional/conditionaldemo/ConditionalDemoConfig.java" />
+        <option value="$PROJECT_DIR$/conditional-demo/pom.xml" />
         <option value="$PROJECT_DIR$/conditional-demo/src/main/java/com/nhnent/edu/springboot/autoconfig/conditional/conditionaldemo/ConditionalDemoApplication.java" />
+        <option value="$PROJECT_DIR$/conditional-demo/src/main/java/com/nhnent/edu/springboot/autoconfig/conditional/conditionaldemo/ConditionalDemoConfig.java" />
       </list>
     </option>
   </component>
@@ -535,16 +522,15 @@
       <workItem from="1508045607695" duration="662000" />
       <workItem from="1508661338730" duration="12000" />
       <workItem from="1521602682837" duration="10568000" />
-      <workItem from="1522482381656" duration="5946000" />
+      <workItem from="1522482381656" duration="8123000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17208000" />
+    <option name="totallyTimeSpent" value="19385000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1440" y="22" width="1920" height="1178" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Tool Output" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -565,10 +551,10 @@
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22253" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22253" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3721145" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3721145" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27848774" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
@@ -644,70 +630,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/webapp-demo-filter/src/main/java/com/nhnent/edu/springboot/web/filter/webappdemofilter/Log1Servlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webapp-demo-filter/src/main/java/com/nhnent/edu/springboot/web/filter/webappdemofilter/Log2Servlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="12" column="36" lean-forward="false" selection-start-line="12" selection-start-column="36" selection-end-line="12" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webapp-demo-filter/src/main/java/com/nhnent/edu/springboot/web/filter/webappdemofilter/ServletConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="25" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webapp-demo-filter/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="23" lean-forward="false" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web-app-demo-filter2/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="4" lean-forward="false" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web-app-demo-filter2/src/main/java/com/nhnent/edu/springboot/web/filter/webappdemofilter2/Log1Servlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web-app-demo-filter2/src/main/java/com/nhnent/edu/springboot/web/filter/webappdemofilter2/Log2Servlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web-app-demo-filter2/src/main/java/com/nhnent/edu/springboot/web/filter/webappdemofilter2/WebappDemoFilterApplication.java" />
-    <entry file="file://$PROJECT_DIR$/web-app-demo-filter2/src/main/java/com/nhnent/edu/springboot/web/filter/webappdemofilter2/Log2Filter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web-app-demo-filter2/src/main/java/com/nhnent/edu/springboot/web/filter/webappdemofilter2/Log1Filter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -992,18 +914,51 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/5.0.4.RELEASE/spring-core-5.0.4.RELEASE-sources.jar!/org/springframework/core/env/PropertyResolver.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.0.0.RELEASE/spring-boot-autoconfigure-2.0.0.RELEASE.jar!/org/springframework/boot/autoconfigure/condition/OnWebApplicationCondition.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="126">
+          <caret line="21" column="6" lean-forward="false" selection-start-line="21" selection-start-column="6" selection-end-line="21" selection-end-column="6" />
+          <folding>
+            <marker date="1520660427354" expanded="false" signature="0:104" ph="/.../" />
+            <marker date="1520660427354" expanded="false" signature="172:923" ph="..." />
+            <marker date="1520660427354" expanded="true" signature="1164:1171" ph="{}" />
+            <marker date="1520660427354" expanded="true" signature="1275:1777" ph="{...}" />
+            <marker date="1520660427354" expanded="true" signature="1901:3251" ph="{...}" />
+            <marker date="1520660427354" expanded="true" signature="3332:4460" ph="{...}" />
+            <marker date="1520660427354" expanded="true" signature="4542:5088" ph="{...}" />
+            <marker date="1520660427354" expanded="true" signature="5150:5354" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/5.0.4.RELEASE/spring-core-5.0.4.RELEASE.jar!/org/springframework/core/env/PropertyResolver.class">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.0.0.RELEASE/spring-boot-autoconfigure-2.0.0.RELEASE.jar!/org/springframework/boot/autoconfigure/condition/ConditionalOnNotWebApplication.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="10" lean-forward="false" selection-start-line="18" selection-start-column="10" selection-end-line="18" selection-end-column="10" />
+        <state relative-caret-position="162">
+          <caret line="17" column="29" lean-forward="false" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
+          <folding>
+            <marker date="1520660427354" expanded="false" signature="0:104" ph="/.../" />
+            <marker date="1520660427354" expanded="false" signature="172:424" ph="..." />
+            <marker date="1520660427354" expanded="true" signature="426:569" ph="@{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.0.0.RELEASE/spring-boot-autoconfigure-2.0.0.RELEASE.jar!/org/springframework/boot/autoconfigure/condition/ConditionalOnMissingClass.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="18" column="18" lean-forward="false" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
+          <folding>
+            <marker date="1520660427354" expanded="false" signature="0:104" ph="/.../" />
+            <marker date="1520660427354" expanded="false" signature="172:424" ph="..." />
+            <marker date="1520660427354" expanded="true" signature="426:560" ph="@{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.0.0.RELEASE/spring-boot-autoconfigure-2.0.0.RELEASE-sources.jar!/org/springframework/boot/autoconfigure/condition/ConditionalOnNotWebApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1016,49 +971,120 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.0.0.RELEASE/spring-boot-autoconfigure-2.0.0.RELEASE.jar!/org/springframework/boot/autoconfigure/condition/OnWebApplicationCondition.class">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/5.0.4.RELEASE/spring-core-5.0.4.RELEASE.jar!/org/springframework/core/env/PropertyResolver.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="21" column="6" lean-forward="false" selection-start-line="21" selection-start-column="6" selection-end-line="21" selection-end-column="6" />
+        <state relative-caret-position="270">
+          <caret line="18" column="10" lean-forward="false" selection-start-line="18" selection-start-column="10" selection-end-line="18" selection-end-column="10" />
+          <folding>
+            <marker date="1520660431480" expanded="false" signature="0:104" ph="/.../" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.0.0.RELEASE/spring-boot-autoconfigure-2.0.0.RELEASE-sources.jar!/org/springframework/boot/autoconfigure/condition/OnWebApplicationCondition.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#5616#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/5.0.4.RELEASE/spring-core-5.0.4.RELEASE-sources.jar!/org/springframework/core/env/PropertyResolver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.0.0.RELEASE/spring-boot-autoconfigure-2.0.0.RELEASE.jar!/org/springframework/boot/autoconfigure/condition/ConditionalOnNotWebApplication.class">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.0.0.RELEASE/spring-boot-autoconfigure-2.0.0.RELEASE-sources.jar!/org/springframework/boot/autoconfigure/condition/OnClassCondition.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="17" column="29" lean-forward="false" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
+        <state relative-caret-position="-1579">
+          <caret line="51" column="6" lean-forward="false" selection-start-line="51" selection-start-column="6" selection-end-line="51" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.0.0.RELEASE/spring-boot-autoconfigure-2.0.0.RELEASE-sources.jar!/org/springframework/boot/autoconfigure/condition/ConditionalOnMissingClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="35" column="21" lean-forward="false" selection-start-line="35" selection-start-column="21" selection-end-line="35" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.0.4.RELEASE/spring-beans-5.0.4.RELEASE.jar!/org/springframework/beans/factory/BeanFactory.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="16" column="10" lean-forward="false" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
+          <folding>
+            <marker date="1520660431811" expanded="false" signature="0:104" ph="/.../" />
+            <marker date="1520660431811" expanded="false" signature="157:288" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/1.5.6.RELEASE/spring-boot-autoconfigure-1.5.6.RELEASE-sources.jar!/org/springframework/boot/autoconfigure/data/mongo/MongoDataAutoConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="720">
+          <caret line="90" column="5" lean-forward="false" selection-start-line="90" selection-start-column="5" selection-end-line="90" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.0.0.RELEASE/spring-boot-autoconfigure-2.0.0.RELEASE-sources.jar!/org/springframework/boot/autoconfigure/condition/ConditionalOnMissingBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-285">
+          <caret line="63" column="25" lean-forward="false" selection-start-line="63" selection-start-column="25" selection-end-line="63" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/conditional-demo/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="16" column="30" lean-forward="false" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/conditional-demo/src/main/java/com/nhnent/edu/springboot/autoconfig/conditional/conditionaldemo/ConditionalDemoApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="29" column="56" lean-forward="false" selection-start-line="29" selection-start-column="31" selection-end-line="29" selection-end-column="56" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/conditional-demo/src/main/java/com/nhnent/edu/springboot/autoconfig/conditional/conditionaldemo/ConditionalDemoConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="31" column="54" lean-forward="false" selection-start-line="31" selection-start-column="54" selection-end-line="31" selection-end-column="54" />
+        <state relative-caret-position="532">
+          <caret line="58" column="0" lean-forward="false" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#578#579#0" expanded="true" />
-            <element signature="e#635#636#0" expanded="true" />
-            <element signature="e#735#736#0" expanded="true" />
-            <element signature="e#811#812#0" expanded="true" />
-            <element signature="e#928#929#0" expanded="true" />
-            <element signature="e#991#992#0" expanded="true" />
-            <element signature="e#1138#1139#0" expanded="true" />
-            <element signature="e#1202#1203#0" expanded="true" />
-            <element signature="e#1307#1308#0" expanded="true" />
-            <element signature="e#1347#1348#0" expanded="true" />
-            <element signature="e#1379#1380#0" expanded="true" />
-            <element signature="e#1444#1445#0" expanded="true" />
+            <element signature="e#398#399#0" expanded="true" />
+            <element signature="e#455#456#0" expanded="true" />
+            <element signature="e#549#550#0" expanded="true" />
+            <element signature="e#622#623#0" expanded="true" />
+            <element signature="e#722#723#0" expanded="true" />
+            <element signature="e#798#799#0" expanded="true" />
+            <element signature="e#916#917#0" expanded="true" />
+            <element signature="e#979#980#0" expanded="true" />
+            <element signature="e#1110#1111#0" expanded="true" />
+            <element signature="e#1180#1181#0" expanded="true" />
+            <element signature="e#1328#1329#0" expanded="true" />
+            <element signature="e#1392#1393#0" expanded="true" />
+            <element signature="e#1523#1524#0" expanded="true" />
+            <element signature="e#1594#1595#0" expanded="true" />
+            <element signature="e#1703#1704#0" expanded="true" />
+            <element signature="e#1770#1771#0" expanded="true" />
+            <element signature="e#1874#1875#0" expanded="true" />
+            <element signature="e#1914#1915#0" expanded="true" />
+            <element signature="e#1946#1947#0" expanded="true" />
+            <element signature="e#2011#2012#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/conditional-demo/src/main/java/com/nhnent/edu/springboot/autoconfig/conditional/conditionaldemo/ConditionalDemoApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="22" column="30" lean-forward="false" selection-start-line="22" selection-start-column="30" selection-end-line="22" selection-end-column="30" />
-          <folding />
         </state>
       </provider>
     </entry>

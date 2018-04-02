@@ -1,8 +1,6 @@
 package com.nhnent.edu.springboot.autoconfig.conditional.conditionaldemo;
 
-import org.springframework.boot.autoconfigure.condition.ConditionalOnBean;
-import org.springframework.boot.autoconfigure.condition.ConditionalOnClass;
-import org.springframework.boot.autoconfigure.condition.ConditionalOnNotWebApplication;
+import org.springframework.boot.autoconfigure.condition.*;
 import org.springframework.context.annotation.*;
 import org.springframework.core.type.AnnotatedTypeMetadata;
 
@@ -15,10 +13,17 @@ public class ConditionalDemoConfig {
     }
 
     @Bean
+    @ConditionalOnWebApplication
+    public SayYesComponent sayYesComponentWeb() {
+        return new SayYesComponent("ConditionalOnWebApplication");
+    }
+
+    @Bean
     @ConditionalOnNotWebApplication
     public SayYesComponent sayYesComponentNotWeb() {
         return new SayYesComponent("ConditionalOnNotWebApplication");
     }
+
 
     @Bean
     @ConditionalOnBean(name="sayYesComponentNotWeb")
@@ -27,11 +32,29 @@ public class ConditionalDemoConfig {
     }
 
     @Bean
+    @ConditionalOnMissingBean(name="sayYesComponentNotWeb")
+    public SayYesComponent sayYesComponentOnMissingBean() {
+        return new SayYesComponent("ConditionalOnMissingBean");
+    }
+
+
+    @Bean
     @ConditionalOnClass(value={ContextAnnotationAutowireCandidateResolver.class})
     public SayYesComponent sayYesComponentOnClass() {
         return new SayYesComponent("ConditionalOnClass");
     }
 
+    @Bean
+    @ConditionalOnMissingClass(value={"java.lang.String"})
+    public SayYesComponent sayYesComponentOnMissingClass() {
+        return new SayYesComponent("ConditionalOnMissingClass");
+    }
+
+    @Bean
+    @ConditionalOnProperty(value="test")
+    public SayYesComponent sayYesComponentOnProperty() {
+        return new SayYesComponent("ConditionalOnProperty");
+    }
 
     class SayYesComponent{
         private String name;

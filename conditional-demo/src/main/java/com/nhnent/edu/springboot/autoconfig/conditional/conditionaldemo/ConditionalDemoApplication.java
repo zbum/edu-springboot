@@ -1,5 +1,8 @@
 package com.nhnent.edu.springboot.autoconfig.conditional.conditionaldemo;
 
+import org.apache.commons.logging.Log;
+import org.apache.commons.logging.LogFactory;
+import org.springframework.beans.factory.NoSuchBeanDefinitionException;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ConfigurableApplicationContext;
@@ -7,20 +10,36 @@ import org.springframework.context.ConfigurableApplicationContext;
 @SpringBootApplication
 public class ConditionalDemoApplication {
 
+	private static final Log log = LogFactory.getLog(ConditionalDemoApplication.class);
+
 	public static void main(String[] args) {
 		ConfigurableApplicationContext context = SpringApplication.run(ConditionalDemoApplication.class, args);
 
-		ConditionalDemoConfig.SayYesComponent sayYesComponent = context.getBean("sayYesComponent", ConditionalDemoConfig.SayYesComponent.class);
-		sayYesComponent.sayYes();
+		runOnNotNull(context, "sayYesComponent");
 
-		ConditionalDemoConfig.SayYesComponent sayYesComponentNotWeb = context.getBean("sayYesComponentNotWeb", ConditionalDemoConfig.SayYesComponent.class);
-		sayYesComponentNotWeb.sayYes();
+		runOnNotNull(context, "sayYesComponentWeb");
+		runOnNotNull(context, "sayYesComponentNotWeb");
 
-		ConditionalDemoConfig.SayYesComponent sayYesComponentOnBean = context.getBean("sayYesComponentOnBean", ConditionalDemoConfig.SayYesComponent.class);
-		sayYesComponentOnBean.sayYes();
+		runOnNotNull(context, "sayYesComponentOnBean");
+		runOnNotNull(context, "sayYesComponentOnMissingBean");
 
-		ConditionalDemoConfig.SayYesComponent sayYesComponentOnClass = context.getBean("sayYesComponentOnClass", ConditionalDemoConfig.SayYesComponent.class);
-		sayYesComponentOnClass.sayYes();
+		runOnNotNull(context, "sayYesComponentOnClass");
+		runOnNotNull(context, "sayYesComponentOnMissingClass");
 
+		runOnNotNull(context, "sayYesComponentOnProperty");
+		runOnNotNull(context, "sayYesComponentOnProperty");
+
+
+	}
+
+
+	private static void runOnNotNull(ConfigurableApplicationContext context, String beanName) {
+		try {
+			ConditionalDemoConfig.SayYesComponent sayYesComponent = context.getBean(beanName, ConditionalDemoConfig.SayYesComponent.class);
+			if (sayYesComponent != null)
+				sayYesComponent.sayYes();
+		}catch (NoSuchBeanDefinitionException e) {
+			log.info(beanName + " bean was not initiated!", e);
+		}
 	}
 }
