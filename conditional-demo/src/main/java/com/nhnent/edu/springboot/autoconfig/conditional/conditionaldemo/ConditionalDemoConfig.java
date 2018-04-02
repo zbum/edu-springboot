@@ -55,6 +55,11 @@ public class ConditionalDemoConfig {
     public SayYesComponent sayYesComponentOnProperty() {
         return new SayYesComponent("ConditionalOnProperty");
     }
+    @Bean
+    @ConditionalOnResource(resources = {"classpath:/test.txt"})
+    public SayYesComponent sayYesComponentOnResource() {
+        return new SayYesComponent("ConditionalOnResource");
+    }
 
     class SayYesComponent{
         private String name;

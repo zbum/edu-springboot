@@ -27,9 +27,7 @@ public class ConditionalDemoApplication {
 		runOnNotNull(context, "sayYesComponentOnMissingClass");
 
 		runOnNotNull(context, "sayYesComponentOnProperty");
-		runOnNotNull(context, "sayYesComponentOnProperty");
-
-
+		runOnNotNull(context, "sayYesComponentOnResource");
 	}
 
 
