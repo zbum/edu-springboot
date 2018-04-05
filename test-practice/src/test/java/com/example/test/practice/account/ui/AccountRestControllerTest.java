@@ -23,7 +23,7 @@ import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.
  */
 // TODO 1-1 : @RunWith(S_____Runner.class)
 @SuppressWarnings("WeakerAccess")
-@WebMvcTest
+@WebMvcTest(AccountRestController.class)
 public class AccountRestControllerTest {
     @Autowired
     MockMvc mockMvc;
