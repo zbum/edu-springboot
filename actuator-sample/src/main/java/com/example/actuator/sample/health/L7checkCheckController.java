@@ -19,7 +19,7 @@ import java.util.Set;
 
 @SuppressWarnings("MVCPathVariableInspection")
 @RestController
-@RequestMapping("${amp.l7check.uri:/l7check}")
+@RequestMapping("${l7check.uri:/l7check}")
 public class L7checkCheckController {
     private static final Set<String> LOCAL_IPS = Collections.unmodifiableSet(new HashSet<>(Arrays.asList("0:0:0:0:0:0:0:1", "127.0.0.1")));
     private final ChangableHealthIndicator indicator;
