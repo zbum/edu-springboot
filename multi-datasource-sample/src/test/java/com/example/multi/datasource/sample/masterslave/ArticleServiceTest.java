@@ -10,7 +10,6 @@ import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.boot.test.mock.mockito.SpyBean;
-import org.springframework.test.annotation.DirtiesContext;
 import org.springframework.test.context.ActiveProfiles;
 import org.springframework.test.context.junit4.SpringRunner;
 
@@ -29,7 +28,7 @@ import static org.mockito.Mockito.*;
 @RunWith(SpringRunner.class)
 @SpringBootTest(webEnvironment = SpringBootTest.WebEnvironment.NONE)
 @ActiveProfiles("masterSlave")
-@DirtiesContext
+//@DirtiesContext
 @Slf4j
 public class ArticleServiceTest {
     @Rule
@@ -41,10 +40,6 @@ public class ArticleServiceTest {
     DataSource writeDataSource;
     @SpyBean(name = "secondDataSource")
     DataSource readDataSource;
-    @SpyBean(name = "routingDataSource")
-    DataSource routingDataSource;
-    @SpyBean
-    DataSource dataSource;
 
     // param
     Long articleId;
@@ -53,8 +48,6 @@ public class ArticleServiceTest {
     public void setUp() {
         reset(writeDataSource);
         reset(readDataSource);
-        reset(routingDataSource);
-        reset(dataSource);
     }
 
     @Test
@@ -67,8 +60,6 @@ public class ArticleServiceTest {
         articleId = article.getArticleId();
         then(writeDataSource).should(times(1)).getConnection();
         then(readDataSource).should(never()).getConnection();
-        then(routingDataSource).should(times(1)).getConnection();
-        then(dataSource).should(times(1)).getConnection();
     }
 
     @Test
@@ -80,8 +71,6 @@ public class ArticleServiceTest {
         // then
         then(readDataSource).should(times(1)).getConnection();
         then(writeDataSource).should(never()).getConnection();
-        then(routingDataSource).should(times(1)).getConnection();
-        then(dataSource).should(times(1)).getConnection();
     }
 
     @Test
@@ -92,8 +81,6 @@ public class ArticleServiceTest {
 
         then(writeDataSource).should(times(1)).getConnection();
         then(readDataSource).should(never()).getConnection();
-        then(routingDataSource).should(times(1)).getConnection();
-        then(dataSource).should(times(1)).getConnection();
 
         Long articleId = article.getArticleId();
 
@@ -104,7 +91,5 @@ public class ArticleServiceTest {
         assertThat(result, is(notNullValue()));
         then(writeDataSource).should(times(1)).getConnection();
         then(readDataSource).should(times(1)).getConnection();
-        then(routingDataSource).should(times(2)).getConnection();
-        then(dataSource).should(times(2)).getConnection();
     }
 }

@@ -2,6 +2,7 @@ package com.example.multi.datasource.sample.masterslave;
 
 import com.example.multi.datasource.sample.masterslave.exception.ArticleNotFoundException;
 import lombok.NonNull;
+import org.springframework.context.annotation.Profile;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
@@ -12,6 +13,7 @@ import java.util.Optional;
  */
 @SuppressWarnings("WeakerAccess")
 @Service
+@Profile("masterSlave")
 public class ArticleService {
     private final ArticleRepository articleRepository;
 
