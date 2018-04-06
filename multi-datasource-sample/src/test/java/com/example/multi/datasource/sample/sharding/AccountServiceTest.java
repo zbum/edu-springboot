@@ -13,6 +13,8 @@ import org.springframework.test.context.junit4.SpringRunner;
 import javax.sql.DataSource;
 import java.sql.SQLException;
 
+import static org.hamcrest.Matchers.is;
+import static org.junit.Assert.assertThat;
 import static org.mockito.BDDMockito.then;
 import static org.mockito.Mockito.*;
 
@@ -41,7 +43,7 @@ public class AccountServiceTest {
     @Test
     public void createAndGetAccount_first() throws SQLException {
         // create
-        Account account = new Account(0L, "account1@domain.com", "내용");
+        Account account = new Account(2L, "account1@domain.com", "내용");
         service.create(account);
         Long accountId = account.getAccountId();
         then(firstDataSource).should(times(1)).getConnection();
@@ -49,8 +51,7 @@ public class AccountServiceTest {
 
         // getAccount
         Account result = service.getAccount(accountId);
-        log.info("result = {}", result);
-//        assertThat(result, is(account));
+        assertThat(result, is(account));
         then(firstDataSource).should(times(2)).getConnection();
         then(secondDataSource).should(never()).getConnection();
     }
@@ -58,17 +59,16 @@ public class AccountServiceTest {
     @Test
     public void createAndGetAccount_second() throws SQLException {
         // create
-        Account account = new Account(1L, "account1@domain.com", "내용");
+        Account account = new Account(3L, "account2@domain.com", "내용");
         service.create(account);
         Long accountId = account.getAccountId();
-        then(firstDataSource).should(times(1)).getConnection();
-        then(secondDataSource).should(never()).getConnection();
+        then(firstDataSource).should(never()).getConnection();
+        then(secondDataSource).should(times(1)).getConnection();
 
         // getAccount
         Account result = service.getAccount(accountId);
-//        assertThat(result, is(account));
-        log.info("result = {}", result);
-        then(firstDataSource).should(times(2)).getConnection();
-        then(secondDataSource).should(never()).getConnection();
+        assertThat(result, is(account));
+        then(firstDataSource).should(never()).getConnection();
+        then(secondDataSource).should(times(2)).getConnection();
     }
 }

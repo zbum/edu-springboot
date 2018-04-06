@@ -8,7 +8,6 @@ import lombok.NoArgsConstructor;
 import lombok.ToString;
 
 import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 
 /**
@@ -22,7 +21,6 @@ import javax.persistence.Id;
 @AllArgsConstructor
 public class Account {
     @Id
-    @GeneratedValue
     private Long accountId;
     private String email;
     private String name;

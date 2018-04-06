@@ -86,9 +86,9 @@ public class ArticleServiceTest {
 
         // getArticle
         Article result = service.getArticle(articleId);
-        log.info("result = {}", result);
-
         assertThat(result, is(notNullValue()));
+        assertThat(result.getTitle(), is(article.getTitle()));
+        assertThat(result.getContent(), is(article.getContent()));
         then(writeDataSource).should(times(1)).getConnection();
         then(readDataSource).should(times(1)).getConnection();
     }
