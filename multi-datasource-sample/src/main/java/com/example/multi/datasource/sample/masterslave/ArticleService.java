@@ -10,6 +10,7 @@ import java.util.Optional;
 /**
  * @author myeongju.jung
  */
+@SuppressWarnings("WeakerAccess")
 @Service
 public class ArticleService {
     private final ArticleRepository articleRepository;
