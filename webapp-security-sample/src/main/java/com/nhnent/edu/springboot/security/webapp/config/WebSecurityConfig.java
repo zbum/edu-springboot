@@ -19,18 +19,33 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
     @Autowired
     private DataSource dataSource;
 
+    /**
+     * 인터셉터로 요청을 안전하게 보호하는 방법을 설정하기 위한 오버라이딩이다.
+     *
+     * @param http
+     * @throws Exception
+     */
+    // @formatter:off
     @Override
     protected void configure(HttpSecurity http) throws Exception {
-        http.csrf().disable()
-            .headers().frameOptions().disable()
-            .and()
+        http
+            .csrf().disable()
+            .headers()
+                .frameOptions().disable()
+                .and()
             .authorizeRequests()
-            .antMatchers("/css/**").permitAll()
-            .antMatchers("/h2-console/**").permitAll()
-            .anyRequest()
-            .fullyAuthenticated().and().formLogin()
-            .failureUrl("/login?error").permitAll().and().logout().permitAll();
+                .antMatchers("/css/**").permitAll()
+                .antMatchers("/h2-console/**").permitAll()
+                .anyRequest().fullyAuthenticated()
+                .and()
+            .formLogin()
+                .failureUrl("/login?error")
+                .permitAll()
+                .and()
+            .logout()
+                .permitAll();
     }
+    // @formatter:on
 
     @Bean
     public PasswordEncoder passwordEncoder() {
