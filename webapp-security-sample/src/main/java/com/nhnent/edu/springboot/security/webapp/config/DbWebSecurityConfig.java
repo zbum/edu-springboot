@@ -3,6 +3,7 @@ package com.nhnent.edu.springboot.security.webapp.config;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
+import org.springframework.context.annotation.Profile;
 import org.springframework.security.config.annotation.authentication.builders.AuthenticationManagerBuilder;
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;
 import org.springframework.security.config.annotation.web.configuration.EnableWebSecurity;
@@ -12,18 +13,17 @@ import org.springframework.security.crypto.password.PasswordEncoder;
 
 import javax.sql.DataSource;
 
+@Profile("db")
 @Configuration
 @EnableWebSecurity
-public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
+@SuppressWarnings({"SpringJavaAutowiredFieldsWarningInspection"})
+public class DbWebSecurityConfig extends WebSecurityConfigurerAdapter {
 
     @Autowired
     private DataSource dataSource;
 
     /**
      * 인터셉터로 요청을 안전하게 보호하는 방법을 설정하기 위한 오버라이딩이다.
-     *
-     * @param http
-     * @throws Exception
      */
     // @formatter:off
     @Override

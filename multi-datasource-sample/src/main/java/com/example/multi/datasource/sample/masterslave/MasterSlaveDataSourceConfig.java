@@ -51,12 +51,6 @@ public class MasterSlaveDataSourceConfig {
     static class ReplicationRoutingDataSource extends AbstractRoutingDataSource {
         @Override
         protected Object determineCurrentLookupKey() {
-            if (log.isInfoEnabled()) {
-                log.info("currentTransactionName : {}", TransactionSynchronizationManager.getCurrentTransactionName());
-                log.info("isCurrentTransactionReadOnly : {}", TransactionSynchronizationManager.isCurrentTransactionReadOnly());
-                log.info("isActualTransactionActive : {}", TransactionSynchronizationManager.isActualTransactionActive());
-                log.info("resourceMap : {}", TransactionSynchronizationManager.getResourceMap());
-            }
             return TransactionSynchronizationManager.isCurrentTransactionReadOnly()
                 ? DbType.SLAVE : DbType.MASTER;
         }
