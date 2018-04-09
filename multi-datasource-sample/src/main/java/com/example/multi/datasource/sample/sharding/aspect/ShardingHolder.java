@@ -10,18 +10,18 @@ import java.util.Optional;
  */
 @UtilityClass
 public class ShardingHolder {
-    private static ThreadLocal<Integer> distributionKey = new ThreadLocal<>();
+    private static final ThreadLocal<Integer> DISTRIBUTION_KEY = new ThreadLocal<>();
 
     void clear() {
-        distributionKey.remove();
+        DISTRIBUTION_KEY.remove();
     }
 
     public int getKey() {
-        return Optional.ofNullable(distributionKey.get())
+        return Optional.ofNullable(DISTRIBUTION_KEY.get())
                        .orElse(0);
     }
 
     void setKey(@NonNull Integer key) {
-        distributionKey.set(key);
+        DISTRIBUTION_KEY.set(key);
     }
 }
