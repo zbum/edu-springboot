@@ -52,6 +52,7 @@ public class AccountServiceTest {
         // getAccount
         Account result = service.getAccount(accountId);
         assertThat(result, is(account));
+        // 1번 Db에 연결된다.
         then(firstDataSource).should(times(2)).getConnection();
         then(secondDataSource).should(never()).getConnection();
     }
@@ -68,6 +69,7 @@ public class AccountServiceTest {
         // getAccount
         Account result = service.getAccount(accountId);
         assertThat(result, is(account));
+        // 2번 Db에 연결된다.
         then(firstDataSource).should(never()).getConnection();
         then(secondDataSource).should(times(2)).getConnection();
     }

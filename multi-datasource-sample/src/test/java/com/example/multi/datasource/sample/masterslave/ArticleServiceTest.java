@@ -28,7 +28,6 @@ import static org.mockito.Mockito.*;
 @RunWith(SpringRunner.class)
 @SpringBootTest(webEnvironment = SpringBootTest.WebEnvironment.NONE)
 @ActiveProfiles("masterSlave")
-//@DirtiesContext
 @Slf4j
 public class ArticleServiceTest {
     @Rule
@@ -58,6 +57,7 @@ public class ArticleServiceTest {
         service.create(article);
         // then
         articleId = article.getArticleId();
+        // 쓰기 Db Connection 만 가져온다.
         then(writeDataSource).should(times(1)).getConnection();
         then(readDataSource).should(never()).getConnection();
     }
@@ -69,6 +69,7 @@ public class ArticleServiceTest {
         // when
         service.getArticle(0L);
         // then
+        // 읽기 Db Connection 만 가져온다.
         then(readDataSource).should(times(1)).getConnection();
         then(writeDataSource).should(never()).getConnection();
     }
