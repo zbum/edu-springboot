@@ -3,9 +3,10 @@ package com.example.test.practice.account.ui;
 import com.example.test.practice.account.Account;
 import com.example.test.practice.account.application.AccountService;
 import org.junit.Test;
+import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTest;
 import org.springframework.http.MediaType;
+import org.springframework.test.context.junit4.SpringRunner;
 import org.springframework.test.web.servlet.MockMvc;
 
 import static io.github.benas.randombeans.api.EnhancedRandom.random;
@@ -20,9 +21,9 @@ import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.
  *
  * @author myeongju.jung
  */
-// TODO 1-1 : @RunWith(S_____Runner.class)
+@RunWith(SpringRunner.class)
 @SuppressWarnings("WeakerAccess")
-@WebMvcTest(AccountRestController.class)
+// TODO 1-1 @Web___Test(AccountRestController.class)
 public class AccountRestControllerTest {
     @Autowired
     MockMvc mockMvc;
