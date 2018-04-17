@@ -7,7 +7,7 @@
     <groupId>com.nhnent.springboot</groupId>
     <artifactId>dooray-spring-boot-starter</artifactId>
     <version>1.0.0-SNAPSHOT</version>
-    <packaging>jar</packaging>
+    <packaging>pom</packaging>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -47,5 +47,16 @@
             </plugin>
         </plugins>
     </build>
+
+    <distributionManagement>
+        <repository>
+            <id>nhnent-releases</id>
+            <url>http://nexus.nhnent.com/content/repositories/releases</url>
+        </repository>
+        <snapshotRepository>
+            <id>nhnent-snapshots</id>
+            <url>http://nexus.nhnent.com/content/repositories/snapshots</url>
+        </snapshotRepository>
+    </distributionManagement>
 
 </project>

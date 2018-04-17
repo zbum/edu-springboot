@@ -32,4 +32,12 @@
         </plugins>
     </build>
 
+    <repositories>
+        <repository>
+            <id>nhnent-public</id>
+            <name>NHN Ent public</name>
+            <url>http://nexus.nhnent.com/content/groups/public/</url>
+        </repository>
+    </repositories>
+
 </project>

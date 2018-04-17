@@ -14,7 +14,7 @@ import org.springframework.web.client.RestTemplate;
 @ConditionalOnClass({DoorayHookSender.class})
 @ConditionalOnBean(RestTemplate.class)
 @EnableConfigurationProperties(DoorayProperties.class)
-@ConditionalOnProperty(prefix = "dooray", name = {"hook-url"}, matchIfMissing = true)
+@ConditionalOnProperty(prefix = "dooray", name = {"hook-url"}, matchIfMissing = false)
 public class DoorayAutoConfiguration {
 
     @Autowired

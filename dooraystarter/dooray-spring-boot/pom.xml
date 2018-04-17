@@ -38,4 +38,15 @@
         </dependency>
     </dependencies>
 
+    <distributionManagement>
+        <repository>
+            <id>nhnent-releases</id>
+            <url>http://nexus.nhnent.com/content/repositories/releases</url>
+        </repository>
+        <snapshotRepository>
+            <id>nhnent-snapshots</id>
+            <url>http://nexus.nhnent.com/content/repositories/snapshots</url>
+        </snapshotRepository>
+    </distributionManagement>
+
 </project>
