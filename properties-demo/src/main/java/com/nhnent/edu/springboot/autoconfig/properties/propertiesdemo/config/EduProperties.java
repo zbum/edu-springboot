@@ -3,6 +3,7 @@ package com.nhnent.edu.springboot.autoconfig.properties.propertiesdemo.config;
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.validation.annotation.Validated;
 
+import javax.validation.constraints.Max;
 import javax.validation.constraints.Min;
 import javax.validation.constraints.NotNull;
 
@@ -11,6 +12,7 @@ import javax.validation.constraints.NotNull;
 public class EduProperties {
     @NotNull
     @Min(10)
+    @Max(1000)
     private Long studentMaxCount=10L;
 
     public Long getStudentMaxCount() {
