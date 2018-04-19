@@ -23,7 +23,6 @@ public class AccountService {
     }
 
     public Account getAccount(@NonNull Long accountId) {
-        // TODO 2-2 : 계정 1건 조회 구현
-        return null;
+        return accountRepository.findOne(accountId);
     }
 }

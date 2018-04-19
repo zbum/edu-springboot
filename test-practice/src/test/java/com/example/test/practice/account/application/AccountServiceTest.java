@@ -41,7 +41,11 @@ public class AccountServiceTest {
         assertThat(account.getCreatedAt(), is(notNullValue()));
     }
 
-    @Test   // 1번 계정을 조회하고 검증하는 테스트케이스
+    /**
+     * 1번 계정을 조회하고 검증하는 테스트케이스
+     * Hint : {@link com.example.test.practice.config.SampleConfig}
+     */
+    @Test
     public void getAccount() {
         // given
         Long accountId = 1L;
@@ -49,7 +53,7 @@ public class AccountServiceTest {
         Account account = service.getAccount(accountId);
         // then
         assertThat(account.getAccountId(), is(accountId));
-        // FIXME 2-1 : After 3 lines
+        // FIXME 2-1 : 통과하게 수정요망
         assertThat(account.getUserId(), is(""));
         assertThat(account.getName(), is(""));
         assertThat(account.getCreatedAt(), is(lessThan(null)));

@@ -15,6 +15,7 @@ import static org.mockito.BDDMockito.then;
 import static org.mockito.Mockito.*;
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.get;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.jsonPath;
+import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;
 
 /**
  * WebMvcTest와 MockBean을 이용한 웹 부분은 통합으로 로딩하고 나머지는 단위적으로 테스트
@@ -22,7 +23,7 @@ import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.
  * @author myeongju.jung
  */
 @RunWith(SpringRunner.class)
-@SuppressWarnings("WeakerAccess")
+@SuppressWarnings({"WeakerAccess", "SpringJavaAutowiredMembersInspection"})
 // TODO 1-1 @Web___Test(AccountRestController.class)
 public class AccountRestControllerTest {
     @Autowired
@@ -41,9 +42,9 @@ public class AccountRestControllerTest {
         mockMvc.perform(get("/api/accounts/{0}", accountId)
                             .accept(MediaType.APPLICATION_JSON))
                // then
-               //.andExpect(status().is__()) // FIXME 1-3 : 성공 응답
+               .andExpect(status().isNotFound()) // FIXME 1-3 : 200 성공 응답으로 변경 > isNotFound -> ???
                .andExpect(jsonPath("$.accountId").value(account.getAccountId()))
-               //.andExpect(jsonPath("$.____").value(account.getName()))  // FIXME 1-4 : 성공 응답
+               .andExpect(jsonPath("$.name").value(account.toString()))  // FIXME 1-4 : 단언이 성공하게 변경 > toString -> ???
         ;
         // then2
         then(accountService).should(times(2)).getAccount(accountId);    // ?!
