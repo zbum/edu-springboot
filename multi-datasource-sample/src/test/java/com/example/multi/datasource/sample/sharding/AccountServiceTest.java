@@ -1,6 +1,5 @@
 package com.example.multi.datasource.sample.sharding;
 
-import lombok.extern.slf4j.Slf4j;
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -13,8 +12,8 @@ import org.springframework.test.context.junit4.SpringRunner;
 import javax.sql.DataSource;
 import java.sql.SQLException;
 
-import static org.hamcrest.Matchers.is;
-import static org.junit.Assert.assertThat;
+import static org.hamcrest.Matchers.*;
+import static org.junit.Assert.*;
 import static org.mockito.BDDMockito.then;
 import static org.mockito.Mockito.*;
 
@@ -24,7 +23,6 @@ import static org.mockito.Mockito.*;
 @RunWith(SpringRunner.class)
 @SpringBootTest(webEnvironment = SpringBootTest.WebEnvironment.NONE)
 @ActiveProfiles("shard")
-@Slf4j
 public class AccountServiceTest {
     @Autowired
     AccountService service;

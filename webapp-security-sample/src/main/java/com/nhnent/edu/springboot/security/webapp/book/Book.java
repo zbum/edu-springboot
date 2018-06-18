@@ -1,7 +1,5 @@
 package com.nhnent.edu.springboot.security.webapp.book;
 
-import lombok.NonNull;
-
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
@@ -22,7 +20,7 @@ public class Book {
     Book() {
     }
 
-    public static Book forCreate(@NonNull String title, @NonNull String writer) {
+    public static Book forCreate(String title, String writer) {
         Book result = new Book();
         result.title = title;
         result.writer = writer;

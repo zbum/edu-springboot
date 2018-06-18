@@ -1,7 +1,6 @@
 package com.example.test.practice.account.application;
 
 import com.example.test.practice.account.Account;
-import lombok.extern.slf4j.Slf4j;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -18,7 +17,6 @@ import static org.junit.Assert.*;
  */
 @RunWith(SpringRunner.class)
 @SpringBootTest(webEnvironment = SpringBootTest.WebEnvironment.NONE)    // !!
-@Slf4j
 public class AccountServiceTest {
     @Autowired
     AccountService service;
@@ -34,7 +32,6 @@ public class AccountServiceTest {
     }
 
     private void assertAccount(Account account) {
-        log.info("account = {}", account);
         assertThat(account.getAccountId(), is(notNullValue()));
         assertThat(account.getUserId(), is(notNullValue()));
         assertThat(account.getName(), is(notNullValue()));

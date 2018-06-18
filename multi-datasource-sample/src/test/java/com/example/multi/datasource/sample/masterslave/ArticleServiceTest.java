@@ -1,7 +1,6 @@
 package com.example.multi.datasource.sample.masterslave;
 
 import com.example.multi.datasource.sample.masterslave.exception.ArticleNotFoundException;
-import lombok.extern.slf4j.Slf4j;
 import org.junit.Before;
 import org.junit.Rule;
 import org.junit.Test;
@@ -28,7 +27,6 @@ import static org.mockito.Mockito.*;
 @RunWith(SpringRunner.class)
 @SpringBootTest(webEnvironment = SpringBootTest.WebEnvironment.NONE)
 @ActiveProfiles("masterSlave")
-@Slf4j
 public class ArticleServiceTest {
     @Rule
     public ExpectedException expectedException = ExpectedException.none();
@@ -83,10 +81,8 @@ public class ArticleServiceTest {
         then(writeDataSource).should(times(1)).getConnection();
         then(readDataSource).should(never()).getConnection();
 
-        Long articleId = article.getArticleId();
-
         // getArticle
-        Article result = service.getArticle(articleId);
+        Article result = service.getArticle(article.getArticleId());
         assertThat(result, is(notNullValue()));
         assertThat(result.getTitle(), is(article.getTitle()));
         assertThat(result.getContent(), is(article.getContent()));

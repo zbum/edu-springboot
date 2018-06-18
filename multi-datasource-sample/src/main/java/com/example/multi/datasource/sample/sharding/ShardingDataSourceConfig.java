@@ -1,7 +1,6 @@
 package com.example.multi.datasource.sample.sharding;
 
 import com.example.multi.datasource.sample.sharding.aspect.ShardingHolder;
-import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -32,7 +31,6 @@ public class ShardingDataSourceConfig {
         return new LazyConnectionDataSourceProxy(routingDataSource);
     }
 
-    @Slf4j
     static class ShardingRoutingDataSource extends AbstractRoutingDataSource {
         private final int dataSourcesSize;
 

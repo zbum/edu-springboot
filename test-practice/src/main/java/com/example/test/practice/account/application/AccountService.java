@@ -2,7 +2,6 @@ package com.example.test.practice.account.application;
 
 import com.example.test.practice.account.Account;
 import com.example.test.practice.account.AccountRepository;
-import lombok.NonNull;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
@@ -22,7 +21,7 @@ public class AccountService {
         return accountRepository.findAll();
     }
 
-    public Account getAccount(@NonNull Long accountId) {
+    public Account getAccount(Long accountId) {
         return accountRepository.findOne(accountId);
     }
 }

@@ -1,6 +1,5 @@
 package com.example.actuator.sample.health;
 
-import lombok.extern.slf4j.Slf4j;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -20,30 +19,31 @@ import static org.junit.Assert.*;
  */
 @RunWith(SpringRunner.class)
 @SpringBootTest(webEnvironment = SpringBootTest.WebEnvironment.RANDOM_PORT)
-@Slf4j
 public class L7checkCheckControllerIntegrationTest {
+    private static final String L7CHECK = "/l7check";
+    private static final String HEALTH = "/health";
     @Autowired
     TestRestTemplate restTemplate;
 
     @Test
     public void downAndUp() throws InterruptedException {
         // before
-        expectUrlStatus("/l7check", HttpStatus.OK);
-        expectUrlStatus("/health", HttpStatus.OK);
+        expectUrlStatus(L7CHECK, HttpStatus.OK);
+        expectUrlStatus(HEALTH, HttpStatus.OK);
 
         // down
-        restTemplate.delete("/l7check");
+        restTemplate.delete(L7CHECK);
         // then down
         TimeUnit.MILLISECONDS.sleep(1000);
-        expectUrlStatus("/l7check", HttpStatus.SERVICE_UNAVAILABLE);
-        expectUrlStatus("/health", HttpStatus.SERVICE_UNAVAILABLE);
+        expectUrlStatus(L7CHECK, HttpStatus.SERVICE_UNAVAILABLE);
+        expectUrlStatus(HEALTH, HttpStatus.SERVICE_UNAVAILABLE);
 
         // up
-        restTemplate.postForEntity("/l7check", null, Object.class);
+        restTemplate.postForEntity(L7CHECK, null, Object.class);
         // then up
         TimeUnit.MILLISECONDS.sleep(1000);
-        expectUrlStatus("/l7check", HttpStatus.OK);
-        expectUrlStatus("/health", HttpStatus.OK);
+        expectUrlStatus(L7CHECK, HttpStatus.OK);
+        expectUrlStatus(HEALTH, HttpStatus.OK);
     }
 
     private void expectUrlStatus(String url, HttpStatus status) {
