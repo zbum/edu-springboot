@@ -1,8 +1,2 @@
-hello ${name} !! <br/>
-hello ${name} !!! <br/>
-hello ${name} !!!! <br/>
-hello ${name} !!!!! <br/>
-hello ${name} !!!!!! <br/>
-hello ${name} !!!!!!! <br/>
-hello ${name} !!!!!!!!! <br/>
-끝!!!!!!!!
+<h1>Hello ${name} !!</h1>
+<#--<h2>hello ${name} !!! <h2/>-->
